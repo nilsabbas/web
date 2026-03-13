@@ -7,50 +7,36 @@
 
 <title>Nils & Abbas | Service Notice</title>
 
-<!-- Auto refresh every 5 minutes -->
-<meta http-equiv="refresh" content="300">
-
 <style>
 
 body{
 font-family:Segoe UI,Arial,sans-serif;
-background:linear-gradient(135deg,#eef2f7,#dfe7f3);
+background:#eef2f7;
 margin:0;
+height:100vh;
 display:flex;
 align-items:center;
 justify-content:center;
-height:100vh;
-color:#2b2b2b;
+color:#333;
 }
 
 .container{
 background:white;
-max-width:750px;
-padding:50px 40px;
+max-width:700px;
+width:90%;
+padding:50px;
 border-radius:18px;
-box-shadow:0 25px 60px rgba(0,0,0,0.08);
+box-shadow:0 20px 50px rgba(0,0,0,0.08);
 text-align:center;
 }
 
 .logo{
-max-width:260px;
-margin-bottom:20px;
-}
-
-.status{
-display:inline-block;
-background:#fff4e5;
-color:#b45309;
-border:1px solid #fbbf24;
-padding:8px 16px;
-border-radius:30px;
-font-weight:600;
-font-size:14px;
+width:260px;
 margin-bottom:20px;
 }
 
 h1{
-color:#1e3a8a;
+color:#274690;
 margin-bottom:15px;
 font-size:32px;
 }
@@ -58,25 +44,26 @@ font-size:32px;
 p{
 font-size:18px;
 line-height:1.6;
-color:#4b5563;
+color:#555;
+margin-bottom:25px;
 }
 
 .contact{
-margin-top:35px;
-background:#f9fafb;
-border-radius:12px;
+background:#f7f8fa;
 padding:25px;
+border-radius:12px;
+margin-top:20px;
 }
 
 .contact h3{
 margin-top:0;
-color:#111827;
+margin-bottom:20px;
 }
 
 .grid{
 display:grid;
 grid-template-columns:160px 1fr;
-gap:10px 15px;
+gap:12px;
 text-align:left;
 max-width:420px;
 margin:auto;
@@ -96,42 +83,31 @@ font-weight:600;
 text-decoration:underline;
 }
 
-.refresh{
+button{
 margin-top:30px;
-}
-
-.refresh button{
-background:#2563eb;
+background:#2f63d3;
 color:white;
 border:none;
-padding:12px 22px;
+padding:12px 24px;
 border-radius:8px;
-cursor:pointer;
 font-size:15px;
+cursor:pointer;
 }
 
-.refresh button:hover{
-background:#1e40af;
+button:hover{
+background:#1e4bb5;
 }
 
 .footer{
 margin-top:20px;
 font-size:14px;
-color:#6b7280;
+color:#777;
 }
 
 @media(max-width:600px){
 
-.container{
-padding:35px 25px;
-}
-
 .grid{
 grid-template-columns:1fr;
-}
-
-h1{
-font-size:26px;
 }
 
 }
@@ -144,18 +120,13 @@ font-size:26px;
 
 <div class="container">
 
-<img src="logo.png" class="logo" alt="Nils & Abbas">
-
-<div class="status">
-Temporary Service Interruption
-</div>
+<img src="logo.png" class="logo">
 
 <h1>Website Temporarily Unavailable</h1>
 
 <p>
-The <strong>Nils & Abbas Trading Co. L.L.C</strong> website is currently unavailable due to a server issue.
-<br><br>
-Our technical team is actively working to restore services as quickly as possible.
+The <strong>Nils & Abbas Trading Co. L.L.C</strong> website is currently unavailable due to a server issue.<br>
+Our technical team is working to restore services as quickly as possible.
 </p>
 
 <div class="contact">
@@ -171,22 +142,16 @@ Our technical team is actively working to restore services as quickly as possibl
 <div class="value">043211272</div>
 
 <div class="label">Email</div>
-<div class="value">
-<a href="mailto:admin@nilsabbas.com">admin@nilsabbas.com</a>
-</div>
+<div class="value"><a href="mailto:admin@nilsabbas.com">admin@nilsabbas.com</a></div>
 
 <div class="label">Tomas</div>
-<div class="value">
-<a href="tel:+971523162725">052 316 2725</a>
-</div>
+<div class="value"><a href="tel:+971523162725">052 316 2725</a></div>
 
 </div>
 
 </div>
 
-<div class="refresh">
 <button onclick="location.reload()">Refresh Page</button>
-</div>
 
 <div class="footer">
 Thank you for your patience and understanding.
