@@ -4,59 +4,119 @@
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Nils & Abbas | Service Notice</title>
+
+<title>Nils & Abbas | Service Status</title>
+
+<meta http-equiv="refresh" content="90">
 
 <style>
 
 body{
 margin:0;
-font-family:Segoe UI, Arial, sans-serif;
-background:#0b1b3b;
-color:#ffffff;
-display:flex;
-justify-content:center;
-align-items:center;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial;
+background:linear-gradient(135deg,#020617,#0f172a,#020617);
+color:#e2e8f0;
 height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+overflow:hidden;
 }
 
+/* subtle glow background */
+
+body::before{
+content:'';
+position:absolute;
+width:600px;
+height:600px;
+background:radial-gradient(circle,#2563eb,transparent);
+filter:blur(160px);
+opacity:0.15;
+}
+
+/* card */
+
 .container{
-background:#14264d;
-padding:50px;
-border-radius:16px;
+position:relative;
+background:#0f172a;
+border:1px solid #1e293b;
+padding:50px 55px;
+border-radius:20px;
 max-width:720px;
 width:90%;
 text-align:center;
-box-shadow:0 20px 60px rgba(0,0,0,0.4);
+box-shadow:0 30px 80px rgba(0,0,0,0.6);
 }
+
+/* logo */
 
 .logo{
 width:260px;
 margin-bottom:25px;
 }
 
+/* status */
+
+.status{
+display:inline-flex;
+align-items:center;
+gap:8px;
+background:#022c22;
+color:#4ade80;
+border:1px solid #065f46;
+padding:6px 14px;
+border-radius:30px;
+font-size:13px;
+margin-bottom:20px;
+}
+
+.status-dot{
+width:8px;
+height:8px;
+background:#4ade80;
+border-radius:50%;
+animation:pulse 2s infinite;
+}
+
+@keyframes pulse{
+0%{opacity:1}
+50%{opacity:0.4}
+100%{opacity:1}
+}
+
+/* headline */
+
 h1{
-color:#6ea8ff;
+margin-top:10px;
 margin-bottom:15px;
-font-size:32px;
+font-size:34px;
+color:#60a5fa;
 }
 
 p{
 font-size:18px;
 line-height:1.6;
-color:#d6e1ff;
+color:#cbd5f5;
 }
 
+/* contact box */
+
 .contact{
-background:#0e1f42;
-padding:25px;
+margin-top:35px;
+background:#020617;
+border:1px solid #1e293b;
 border-radius:12px;
-margin-top:30px;
+padding:28px;
 }
 
 .contact h3{
 margin-top:0;
 margin-bottom:20px;
+color:#e2e8f0;
 }
+
+/* grid */
 
 .grid{
 display:grid;
@@ -68,11 +128,16 @@ margin:auto;
 }
 
 .label{
-font-weight:600;
+color:#94a3b8;
+font-weight:500;
+}
+
+.value{
+color:#e2e8f0;
 }
 
 .value a{
-color:#7fb0ff;
+color:#60a5fa;
 text-decoration:none;
 font-weight:600;
 }
@@ -81,31 +146,52 @@ font-weight:600;
 text-decoration:underline;
 }
 
+/* button */
+
 button{
-margin-top:30px;
-background:#3b82f6;
+margin-top:35px;
+background:#2563eb;
 border:none;
 color:white;
 padding:12px 26px;
 border-radius:8px;
 font-size:15px;
 cursor:pointer;
+transition:0.2s;
 }
 
 button:hover{
-background:#2563eb;
+background:#1d4ed8;
 }
 
+/* footer */
+
 .footer{
-margin-top:20px;
+margin-top:25px;
 font-size:14px;
-color:#a9b8da;
+color:#64748b;
+}
+
+.update{
+margin-top:10px;
+font-size:13px;
+color:#94a3b8;
 }
 
 @media(max-width:600px){
+
+.container{
+padding:35px 25px;
+}
+
 .grid{
 grid-template-columns:1fr;
 }
+
+h1{
+font-size:28px;
+}
+
 }
 
 </style>
@@ -118,11 +204,16 @@ grid-template-columns:1fr;
 
 <img src="logo.png" class="logo">
 
+<div class="status">
+<span class="status-dot"></span>
+Service Status
+</div>
+
 <h1>Website Temporarily Unavailable</h1>
 
 <p>
-The <strong>Nils & Abbas Trading Co. L.L.C</strong> website is currently unavailable due to a server issue.<br>
-Our technical team is working to restore services as quickly as possible.
+The <strong>Nils & Abbas Trading Co. L.L.C</strong> website is temporarily unavailable.
+Our technical team is actively working to restore services as quickly as possible.
 </p>
 
 <div class="contact">
@@ -138,10 +229,14 @@ Our technical team is working to restore services as quickly as possible.
 <div class="value">043211272</div>
 
 <div class="label">Email</div>
-<div class="value"><a href="mailto:admin@nilsabbas.com">admin@nilsabbas.com</a></div>
+<div class="value">
+<a href="mailto:admin@nilsabbas.com">admin@nilsabbas.com</a>
+</div>
 
 <div class="label">Tomas</div>
-<div class="value"><a href="tel:+971523162725">052 316 2725</a></div>
+<div class="value">
+<a href="tel:+971523162725">052 316 2725</a>
+</div>
 
 </div>
 
@@ -151,6 +246,10 @@ Our technical team is working to restore services as quickly as possible.
 
 <div class="footer">
 Thank you for your patience and understanding.
+</div>
+
+<div class="update">
+Last Updated: 13 March 2026
 </div>
 
 </div>
