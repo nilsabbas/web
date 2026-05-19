@@ -1,0 +1,347 @@
+msgid ""
+msgstr "" 
+"Project-Id-Version: Classic Industry\n"
+"POT-Creation-Date: 2022-12-01 20:24+2\n"
+"PO-Revision-Date: 2022-12-01 20:24+2\n"
+"Last-Translator: \n"
+"Language-Team: classictemplate <support@theclassictemplates.com>\n"
+"Language: en_US\n"
+"MIME-Version: 0.1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _;__;_e;gettext;gettext_noop;esc_attr;esc_attr__;"
+"esc_attr_e;esc_html;esc_html__;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: template-home-page.php:46
+msgid "More About Us"
+msgstr ""
+
+#: comments.php:67
+msgid "Comments are closed."
+msgstr ""
+
+#: content-page.php:17
+msgid "Pages:"
+msgstr ""
+
+#: content-page.php:21
+msgid "Edit"
+msgstr ""
+
+#: template-full-width.php:26
+msgid "Pages:"
+msgstr ""
+
+#: sidebar.php:12
+msgid "Archives"
+msgstr ""
+
+#: sidebar.php:18
+msgid "Meta"
+msgstr ""
+
+#: customizer.php:32
+msgid "Logo Width"
+msgstr ""
+
+#: customizer.php:52
+msgid "Site Title Color"
+msgstr ""
+
+#: customizer.php:63
+msgid "Enable Site Title"
+msgstr ""
+
+#: customizer.php:76
+msgid "Site Tagline Color"
+msgstr ""
+
+#: customizer.php:88
+msgid "Enable Site Tagline"
+msgstr ""
+
+#: customizer.php:94
+msgid "WooCommerce Page Settings"
+msgstr ""
+
+#: customizer.php:105
+msgid "Check To Enable Shop page sidebar"
+msgstr ""
+
+#: customizer.php:115
+msgid "Shop Page Sidebar"
+msgstr ""
+
+#: customizer.php:128
+msgid "Check To Enable Single Product Page Sidebar"
+msgstr ""
+
+#: customizer.php:139
+msgid "Single product Page Sidebar"
+msgstr ""
+
+#: customizer.php:153
+msgid "Woo Product Img Border Radius"
+msgstr ""
+
+#: customizer.php:171
+msgid "Woo Products Per Row"
+msgstr ""
+
+#: customizer.php:190
+msgid "Woo Products Per Page"
+msgstr ""
+
+#: customizer.php:206
+msgid "Product Sale Position"
+msgstr ""
+
+#: customizer.php:96
+msgid "Theme Options Panel"
+msgstr ""
+
+#: customizer.php:101
+msgid "Manage Site Layout Section "
+msgstr ""
+
+#: customizer.php:102
+msgid "<p class=\"sec-title\">Manage Site Layout Section</p>"
+msgstr ""
+
+#: customizer.php:113
+msgid "Check to Show Box Layout"
+msgstr ""
+
+#: customizer.php:123
+msgid "Check to Show preloader"
+msgstr ""
+
+#: customizer.php:129
+msgid "Manage Header Section"
+msgstr ""
+
+#: customizer.php:130
+msgid "<p class=\"sec-title\">Manage Header Section</p>"
+msgstr ""
+
+#: customizer.php:141
+msgid "Check To Show Sticky Header"
+msgstr ""
+
+#: customizer.php:153
+msgid "Add Phone Text"
+msgstr ""
+
+#: customizer.php:165
+msgid "Add Phone Number"
+msgstr ""
+
+#: customizer.php:177
+msgid "Add Opening Time Text"
+msgstr ""
+
+#: customizer.php:189
+msgid "Add Opening Time"
+msgstr ""
+
+#: customizer.php:201
+msgid "Add Email Text"
+msgstr ""
+
+#: customizer.php:213
+msgid "Add Email Address"
+msgstr ""
+
+#: customizer.php:225 customizer.php:344
+msgid "Add Button Text"
+msgstr ""
+
+#: customizer.php:237
+msgid "Add Button URL"
+msgstr ""
+
+#: customizer.php:250
+msgid "Menu Color"
+msgstr ""
+
+#: customizer.php:263
+msgid "Menu Hover Color"
+msgstr ""
+
+#: customizer.php:276
+msgid "SubMenu Color"
+msgstr ""
+
+#: customizer.php:289
+msgid "SubMenu Hover Color"
+msgstr ""
+
+#: customizer.php:295
+msgid "Manage Slider Section"
+msgstr ""
+
+#: customizer.php:297
+msgid "<p class=\"sec-title\">Manage Slider Section</p>"
+msgstr ""
+
+#: customizer.php:309 customizer.php:375
+msgid "Check To Enable This Section"
+msgstr ""
+
+#: customizer.php:332
+msgid "Select Category to display Latest Post"
+msgstr ""
+
+#: customizer.php:353
+msgid "Add Button Link"
+msgstr ""
+
+#: customizer.php:360
+msgid "Manage Our Team Section"
+msgstr ""
+
+#: customizer.php:361
+msgid "<p class=\"sec-title\">Manage Our Management Section</p>"
+msgstr ""
+
+#: customizer.php:387
+msgid "Heading"
+msgstr ""
+
+#: customizer.php:399
+msgid "Sub Heading"
+msgstr ""
+
+#: customizer.php:410
+msgid "Select Category"
+msgstr ""
+
+#: customizer.php:416
+msgid "Manage Post Section"
+msgstr ""
+
+#: customizer.php:428
+msgid "Theme Post Sidebar Position"
+msgstr ""
+
+#: customizer.php:429
+msgid "This option work for blog page, archive page and search page."
+msgstr ""
+
+#: customizer.php:432
+msgid "Full"
+msgstr ""
+
+#: customizer.php:433
+msgid "Left"
+msgstr ""
+
+#: customizer.php:434
+msgid "Right"
+msgstr ""
+
+#: customizer.php:435
+msgid "Three Columns"
+msgstr ""
+
+#: customizer.php:436
+msgid "Four Columns"
+msgstr ""
+
+#: customizer.php:437
+msgid "Grid Layout"
+msgstr ""
+
+#: customizer.php:447
+msgid "Post Description Length"
+msgstr ""
+
+#: customizer.php:450
+msgid "No Content"
+msgstr ""
+
+#: customizer.php:451
+msgid "Excerpt Content"
+msgstr ""
+
+#: customizer.php:452
+msgid "Full Content"
+msgstr ""
+
+#: customizer.php:458
+msgid "Manage Footer Section"
+msgstr ""
+
+#: customizer.php:459
+msgid "<p class=\"sec-title\">Manage Footer Section</p>"
+msgstr ""
+
+#: customizer.php:471
+msgid "Check to Enable Footer Widget"
+msgstr ""
+
+#: customizer.php:480
+msgid "Copyright Line"
+msgstr ""
+
+#: customizer.php:491
+msgid "Link"
+msgstr ""
+
+#: customizer.php:505
+msgid "Coypright Color"
+msgstr ""
+
+#: customizer.php:518
+msgid "BG Color"
+msgstr ""
+
+#: customizer.php:531
+msgid "Title Color"
+msgstr ""
+
+#: customizer.php:544
+msgid "Description Color"
+msgstr ""
+
+#: customizer.php:557
+msgid "List Color"
+msgstr ""
+
+#: customizer.php:566
+msgid "Check To Show Scroll To Top"
+msgstr ""
+
+#: header.php:32
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:115
+msgid "Menu"
+msgstr ""
+
+#: header.php:119
+msgid "Top Menu"
+msgstr ""
+
+#: header.php:130
+msgid "CLOSE"
+msgstr ""
+
+#: footer.php:35
+msgid ""
+"https://www.theclassictemplates.com/products/free-industry-wordpress-theme"
+msgstr ""
+
+#: footer.php:35
+msgid "Classic Industry WordPress Theme"
+msgstr ""
+
+#: footer.php:41
+msgid "TOP"
+msgstr ""

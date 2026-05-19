@@ -1,0 +1,72 @@
+// paths
+$img-path: "../img/" !default; // typography
+$main-font: "Open Sans", sans-serif !default;
+$font-regular: 400 !default;
+$font-medium: 500 !default;
+$font-semibold: 600 !default;
+$font-bold: 700 !default;
+$font-extrabold: 800 !default;
+$primary-color: #2095ae;
+$primary-color-hover: #09768d;
+$primary-color-light: #e8f4d9;
+$secondary-color: #00ab9d;
+$secondary-color-hover: #00786e;
+$secondary-color-light: #cceeeb;
+$bg-light: #f9f9f9;
+$text-color: #fff;
+$text-color-dark: #000000;
+$text-color-light: #575656;
+$text-color-opt-1: #f5228d;
+$text-color-opt-2: #f7af1d;
+$text-color-opt-3: #2c97e8;
+$text-color-opt-4: #6e24ff;
+$text-color-opt-5: #24ff92;
+/* Primary button */
+$btn-primary-normal: #8cc63f;
+$btn-primary-hover: #709e32;
+$btn-primary-disabled: #e8f4d9;
+$btn-primary-default-text-color: #fff;
+$btn-primary-hover-text-color: #fff;
+$btn-primary-disabled-hover-text-color: #709e32; /* Secondary button */
+$btn-secondary-normal: #00ab9d;
+$btn-secondary-hover: #00786e;
+$btn-secondary-disabled: #cceeeb;
+$btn-secondary-default-text-color: #fff;
+$btn-secondary-hover-text-color: #fff;
+$btn-secondary-disabled-hover-text-color: #00786e; /* Success button */
+$btn-success-normal: #22cc88;
+$btn-success-hover: #08bc7f;
+$btn-success-disabled: #9ce8ca;
+$btn-success-default-text-color: #fff;
+$btn-success-hover-text-color: #fff;
+$btn-success-disabled-hover-text-color: #08bc7f; /* Info button */
+$btn-info-normal: #02b1cd;
+$btn-info-hover: #00a5c1;
+$btn-info-disabled: #aae5ee;
+$btn-info-default-text-color: #fff;
+$btn-info-hover-text-color: #fff;
+$btn-info-disabled-hover-text-color: #00a5c1; /* Warning button */
+$btn-warning-normal: #f57920;
+$btn-warning-hover: #bf6423;
+$btn-warning-disabled: #ffd8bc;
+$btn-warning-default-text-color: #fff;
+$btn-warning-hover-text-color: #fff;
+$btn-warning-disabled-hover-text-color: #f57920; /* Danger button */
+$btn-danger-normal: #ef5853;
+$btn-danger-hover: #db453f;
+$btn-danger-disabled: #f3c1bf;
+$btn-danger-default-text-color: #fff;
+$btn-danger-hover-text-color: #fff;
+$btn-danger-disabled-hover-text-color: #db453f; /* Light button */
+$btn-light-normal: #f9f9f9;
+$btn-light-hover: #ffffff;
+$btn-light-disabled: #f6f6f6;
+$btn-light-default-text-color: #000;
+$btn-light-hover-text-color: #000;
+$btn-light-disabled-hover-text-color: #666; /* Dark button */
+$btn-dark-normal: #222;
+$btn-dark-hover: #000;
+$btn-dark-disabled: #999;
+$btn-dark-default-text-color: #fff;
+$btn-dark-hover-text-color: #fff;
+$btn-dark-disabled-hover-text-color: #222;

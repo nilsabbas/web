@@ -1,0 +1,28 @@
+.owl-carousel {
+  .owl-stage {
+    display: flex;
+  }
+}
+
+.owl-theme {
+  .owl-dots {
+    .owl-dot {
+      @media (max-width:520px) {
+        span {
+          margin: 5px 3px !important;
+          width : 7px !important;
+          height: 7px !important;
+        }
+
+        &.active,
+        &:focus,
+        &:focus-within,
+        &:hover {
+          span {
+            width: 15px !important;
+          }
+        }
+      }
+    }
+  }
+}

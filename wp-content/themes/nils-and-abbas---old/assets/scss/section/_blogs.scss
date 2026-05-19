@@ -1,0 +1,138 @@
+.blogs {
+    display: block;
+
+    .blog-holder {
+        .blog-body {
+            .breadcrumb {
+                padding: 0;
+                background-color: transparent;
+            }
+        }
+
+        .post, .wpm-testimonial {
+            .blog-image {
+                display: block;
+                padding: 0;
+                margin: 0 0 30px;
+
+                .img-thumbnail {
+                    display: block;
+                    margin: 0;
+                    padding: 0;
+                    border: 0;
+                    background-color: #eee;
+
+                    img,
+                    .wp-post-image {
+                        display: block;
+                        width: auto;
+                        max-width: 100%;
+                        margin: 0 auto;
+                        height: auto;
+                    }
+                }
+            }
+
+            &.has-post-thumbnail{
+                .blog-image{
+//                     display: none;
+                }
+            }
+        }
+    }
+
+
+
+    &.blog-list-main {
+        display: flex;
+        align-items: baseline;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        flex-direction: column;
+        margin-left: -15px;
+        margin-right: -15px;
+
+        .blog-holder {
+            flex: 1 1 100%;
+            width: 100%;
+            max-width: 100%;
+            padding: 0 15px;
+
+
+
+            .blog-image {
+                display: block;
+                padding: 0;
+                margin: 0 0 10px;
+
+                .img-thumbnail {
+                    display: block;
+                    margin: 0;
+                    padding: 0;
+                    border: 0;
+                    background-color: #eee;
+
+                    img {
+                        display: block;
+                        width: auto;
+                        max-width: 100%;
+                        margin: 0 auto;
+                        height: auto;
+                    }
+                }
+            }
+
+
+            .blog-body {
+                .page-content {
+
+                    h1,
+                    h2,
+                    h3,
+                    h4,
+                    h5,
+                    h6,
+                    b {
+                        display: none;
+                    }
+
+                    p {
+                        display: none;
+
+                        &:first-child {
+                            display: block;
+
+                            b {
+                                display: inline;
+                            }
+                        }
+
+                        &:empty {
+                            display: none;
+                        }
+                    }
+
+                    .btn {
+                        display: none;
+                    }
+                }
+            }
+
+            @media (min-width:992px) {
+                flex: 1 1 50%;
+                width: 50%;
+
+            }
+
+            @media (min-width:1280px) {
+                flex: 1 1 25%;
+                width: 25%;
+            }
+        }
+
+        @media (min-width:992px) {
+            flex-direction: row;
+        }
+
+    }
+}

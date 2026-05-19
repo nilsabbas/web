@@ -1,0 +1,23 @@
+{
+  "name": "nanda",
+  "version": "1.0.0",
+  "description": "nanda",
+  "main": "gulpfile.js",
+  "scripts": {
+    "tet": "gulp serve",
+    "start": "gulp",
+    "preinstall": "npx npm-force-resolutions"
+  },
+  "author": "StratAgile",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.27.9",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.49.7"
+  },
+  "resolutions": {
+    "graceful-fs": "^4.2.9"
+  }
+}

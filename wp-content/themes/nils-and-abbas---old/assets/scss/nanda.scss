@@ -1,0 +1,24 @@
+/*
+Theme Name: nanda
+Author: StratAgile
+Author URI: https://www.stratagile.com/
+Version: 1.0
+ */
+@import "./inc/variables";
+@import "./inc/mixins";
+@import "./inc/base";
+@import "./resets/reset.local.scss";
+@import "./resets/typography.scss";
+@import "./common/forms";
+@import "./common/buttons";
+@import "./common/header";
+@import "./common/footer";
+@import "./section/common";
+@import "./section/slider";
+@import "./section/landing";
+@import "./section/products";
+@import "./section/about";
+@import "./section/testimonials";
+@import "./section/services";
+@import "./section/contactus";
+@import "./section/blogs";
